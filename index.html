@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light" data-lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Марсель Шамсутдинов — Fullstack / Backend Developer (Python) · DevOps</title>
+<meta name="description" content="Портфолио Марселя Шамсутдинова — Fullstack/Backend-разработчика на Python и DevOps-инженера">
+<link rel="stylesheet" href="style.css">
+<script>
+  (function () {
+    var theme = localStorage.getItem('theme');
+    if (theme !== 'light' && theme !== 'dark') {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    var lang = localStorage.getItem('lang') === 'en' ? 'en' : 'ru';
+    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang);
+  })();
+</script>
+</head>
+<body>
+<header></header>
+<main>
+</main>
+<script src="script.js" defer></script>
+</body>
+</html>
