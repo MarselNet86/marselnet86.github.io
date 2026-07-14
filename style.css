@@ -43,3 +43,50 @@ a {
 a:hover {
   opacity: 0.7;
 }
+
+[data-lang="ru"] .en { display: none; }
+[data-lang="en"] .ru { display: none; }
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.toggle-btn {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--fg);
+  padding: 4px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.toggle-btn:hover {
+  opacity: 0.7;
+}
+
+.site-header h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.role {
+  color: var(--fg);
+  margin-bottom: 4px;
+}
+
+.location {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 16px;
+}
