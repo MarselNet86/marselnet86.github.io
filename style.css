@@ -103,3 +103,20 @@ a:hover {
 .section p {
   margin-bottom: 12px;
 }
+
+.skill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.skill-label {
+  font-weight: bold;
+  min-width: 160px;
+}
+
+.skill-list {
+  color: var(--muted);
+}
