@@ -162,3 +162,17 @@ a:hover {
   color: var(--muted);
   font-style: italic;
 }
+
+.contact-row {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.site-footer {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+}
