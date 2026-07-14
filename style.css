@@ -145,3 +145,20 @@ a:hover {
   color: var(--muted);
   font-size: 13px;
 }
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.project-name {
+  white-space: nowrap;
+}
+
+.project-private {
+  color: var(--muted);
+  font-style: italic;
+}
