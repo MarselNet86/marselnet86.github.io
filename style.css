@@ -200,4 +200,13 @@ a:hover {
     flex-direction: column;
     gap: 2px;
   }
+
+  .project-name {
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  .project-link {
+    word-break: break-all;
+  }
 }
